@@ -5,6 +5,7 @@ public class Test {
         Runnable var = () -> System.err.println("1");
         new Thread(var).start();
         System.err.println("123");
+        System.err.println("456");
 
     }
 
