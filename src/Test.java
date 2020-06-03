@@ -1,7 +1,12 @@
+import javafx.beans.binding.ObjectExpression;
+
 public class Test {
     public static void main(String[] args) {
-        System.err.println("1112223333");
-        System.err.println("55548");
-        System.err.println("1235165465456215515");
+        Runnable var = () -> System.err.println("1");
+        new Thread(var).start();
+        System.err.println("123");
+
     }
+
+
 }
